@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color :  rgb(12, 14, 12);
+
+}
+
+#container {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    color: rgb(240, 226, 37);
+    font-size: 8vw;
+    padding: 3%;
+}
+#box{
+    max-height : 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border : 2px solid red; */
+    
+}
+.inner-box{
+    width: 400px;
+    height : 400px;
+    line-height: 120px;
+
+}
+.info{
+    color: yellow;
+
+    height: 30px;
+    /* border: 2px solid red; */
+    
+}
+#playerTurn{
+    color: yellow;
+    /* display: inline; */
+    text-align: center;
+}
+#reset{
+    width: 100px;
+    margin-top: 8px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(240, 211, 84);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    border: 2px solid rgb(202, 202, 72);
+    border-radius: 5px;
+
+
+}
+
+
+#mid{
+    
+    border: 10px solid rgba(236, 214, 13, 0.911);
+    
+    background-color: rgb(240, 231, 231);
+    font-size: 4rem;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-box{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: middle;
+    /* text-align: center; */
+    vertical-align: middle;
+    border: 2px solid rgb(223, 210, 210);
+}
+
+
+@media screen and (max-width:400px) {
+    #box{
+        padding-top: 25%;
+
+    }
+    .inner-box {
+      width: 250px;
+      height: 250px;
+      line-height: 80px;
+
+    }
+
+
+    h1 {
+         font-size: 15vw;
+        padding-top: 20%;
+    }
+
+}
