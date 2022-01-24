@@ -84,6 +84,7 @@ h1 {
 
     }
     .inner-box {
+      margin-top :50px;
       width: 250px;
       height: 250px;
       line-height: 80px;
