@@ -84,8 +84,8 @@ h1 {
 
     }
     .inner-box {
-      width: 250px;
-      height: 250px;
+      width: 300px;
+      height: 300px;
       line-height: 80px;
 
     }
@@ -94,6 +94,9 @@ h1 {
     h1 {
          font-size: 15vw;
         padding-top: 20%;
+    }
+    #reset{
+        margin-top : 50px;
     }
 
 }
